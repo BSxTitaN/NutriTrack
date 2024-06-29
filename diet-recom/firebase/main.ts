@@ -11,13 +11,13 @@ function initializeAppIfNecessary() {
     return getApp();
   } catch (any) {
     const firebaseConfig = {
-      apiKey: "AIzaSyBlc9lXFtf11R2bMdUFz9pFyFnXmexgSEs",
-      authDomain: "nutritrack-35d14.firebaseapp.com",
-      projectId: "nutritrack-35d14",
-      storageBucket: "nutritrack-35d14.appspot.com",
-      messagingSenderId: "328123018704",
-      appId: "1:328123018704:web:cf61f097b7588236bc1dd5",
-      measurementId: "G-F59VECJ4DY",
+      apiKey: "",
+      authDomain: "",
+      projectId: "",
+      storageBucket: "",
+      messagingSenderId: "",
+      appId: "",
+      measurementId: "",
     };
     return initializeApp(firebaseConfig);
   }
